@@ -1,12 +1,21 @@
 PODS:
-  - hoedown (3.0.1):
-    - hoedown/standard (= 3.0.1)
-  - hoedown/standard (3.0.1)
+  - hoextdown (3.0.5.2):
+    - hoextdown/standard (= 3.0.5.2)
+  - hoextdown/standard (3.0.5.2)
 
 DEPENDENCIES:
-  - hoedown (>= 3.0)
+  - hoextdown (from `https://github.com/ashokgelal/hoextdown`)
+
+EXTERNAL SOURCES:
+  hoextdown:
+    :git: https://github.com/ashokgelal/hoextdown
+
+CHECKOUT OPTIONS:
+  hoextdown:
+    :commit: 67aceda34bb1e8b90ca2bc5494135d656c5d052f
+    :git: https://github.com/ashokgelal/hoextdown
 
 SPEC CHECKSUMS:
-  hoedown: 08c427a0eed4918efb945be0e181a8cbc063bc24
+  hoextdown: c263021add8a5814efc914fab62776931eaf6d5e
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.39.0

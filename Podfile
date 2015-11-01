@@ -1,1 +1,1 @@
-pod 'hoedown', '>= 3.0'
+pod 'hoextdown', :git => 'https://github.com/ashokgelal/hoextdown'
