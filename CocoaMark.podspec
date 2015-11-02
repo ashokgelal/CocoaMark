@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'standard' do |ss|
     ss.source_files = 'CocoaMark/*.{h,m}'
-    ss.dependency 'hoextdown'
+    ss.dependency 'hoextdown', :git => 'https://github.com/ashokgelal/hoextdown'
   end
 
   s.ios.deployment_target = '7.0'
