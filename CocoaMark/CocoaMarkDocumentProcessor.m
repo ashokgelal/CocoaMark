@@ -24,7 +24,7 @@ static const int bufferGrowUnit = 1024;
     self = [super init];
     if(self) {
         buffer = hoedown_buffer_new(bufferGrowUnit);
-        document = hoedown_document_new(renderer.renderer, extensions, maxNesting);
+        document = hoedown_document_new(renderer.renderer, extensions, maxNesting, NULL, NULL);
         if(document==NULL) {
             return nil;
         }
